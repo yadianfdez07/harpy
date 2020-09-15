@@ -6,11 +6,22 @@ namespace CSharp.ValueTypes.Test
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void TestIntMaxValue()
         {
             var intMaxValue = int.MaxValue;
 
             Assert.Equal(2147483647, intMaxValue);
+        }
+
+        [Fact]
+        public void TestIntMinValue()
+        {
+            //Given
+
+            //When
+
+            //Then
+            Assert.Equal(-2147483648, int.MinValue);
         }
 
     }

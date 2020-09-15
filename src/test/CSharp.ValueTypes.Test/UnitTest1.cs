@@ -8,7 +8,10 @@ namespace CSharp.ValueTypes.Test
         [Fact]
         public void Test1()
         {
+            var intMaxValue = int.MaxValue;
 
+            Assert.Equal(2147483647, intMaxValue);
         }
+
     }
 }
